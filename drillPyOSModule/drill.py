@@ -16,7 +16,7 @@ import os
 directory = os.listdir(".")
 
 
-path = "C:\\Users\\Robert\\Documents\\TTA\\python\\drillPyOSModule"
+path = "C:\\Users\\Robert\\Documents\\TTA\\projects\\tta-python-projects\\drillPyOSModule"
 
 
 #iterates through directory:
