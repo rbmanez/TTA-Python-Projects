@@ -10,7 +10,7 @@
 
 
 import os
-
+import time
 
 #creates a list from the contents of current directory
 directory = os.listdir(".")
@@ -26,7 +26,9 @@ for file in directory:
         f = open(file,"r")
         print(file + " content: ", f.read())
         f.close
-        #concatinates path and file to create absolute path to print mtime:
+        #concatinates path and file to create absolute path to get mtime,
+        #then converts mtime to ctime (better readability) then prints it:
         abs_file_path = os.path.join(path,file)
-        print(file + " mtime: ", os.path.getmtime(abs_file_path), "\n")
-
+        mtime = os.path.getmtime(abs_file_path)
+        ctime = time.ctime(mtime)
+        print(file + " time: ", ctime, "\n")
