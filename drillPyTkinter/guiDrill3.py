@@ -11,8 +11,6 @@
 #           - use the move() method from the Shutil module to cut all
 #           qualifying files and paste them within the destination directory
 #Version:   - Python 3.7
-#Google:    - python listdir, python path join,
-#Notes:     -
 
 
 
