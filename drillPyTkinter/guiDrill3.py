@@ -24,13 +24,13 @@ class ParentWindow(Frame):
 
         #creating the GUI window
         self.master = master
-        self.master.title("Check Files")
+        self.master.title("Move Files")
         self.master.geometry('530x170')
 
         #creating buttons
-        self.btnBrowse1 = Button(self.master, text="Starting Directory", width=14, command=lambda: self.start(1))
+        self.btnBrowse1 = Button(self.master, text="Starting Directory", width=14, command=lambda: self.start())
         self.btnBrowse1.grid(column=0, row=0, padx=(15, 0), pady=(40, 0))
-        self.btnBrowse2 = Button(self.master, text="Ending Directory", width=14, command=lambda: self.end(1))
+        self.btnBrowse2 = Button(self.master, text="Ending Directory", width=14, command=lambda: self.end())
         self.btnBrowse2.grid(column=0, row=1, padx=(15, 0), pady=(10, 0))
         self.btnCheck = Button(self.master, text="Move .txt Files", height=2, width=14, command=lambda: self.move_files())
         self.btnCheck.grid(column=0, row=2, padx=(15, 0), pady=(10, 0),)
@@ -47,7 +47,7 @@ class ParentWindow(Frame):
 
     #take user’s selected initial folder path retained by askdirectory()
     #method and print it within GUI’s text widget
-    def start(self, btn_id):
+    def start(self):
         self.initial_folder = filedialog.askdirectory()
         self.txt1.delete(0, END)
         self.txt1.insert(0, self.initial_folder)
@@ -57,7 +57,7 @@ class ParentWindow(Frame):
 
     #take user’s selected destination folder path retained by askdirectory()
     #method and print it within GUI’s text widget
-    def end(self, btn_id):
+    def end(self):
         self.destination_folder = filedialog.askdirectory()
         self.txt2.delete(0, END)
         self.txt2.insert(0, self.destination_folder)
