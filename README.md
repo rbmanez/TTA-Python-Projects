@@ -2,10 +2,16 @@
 Practice projects from The Tech Academy's Python course.
 
 #### Hotel Menu Django Project
-The Hotel Menu Django project involved creating menu items for a mock hotel. We were able to practice Python and Django concepts, the main one being Django's architectural design pattern of Model, View, and Template.
+The Hotel Menu Django project involved developing the ability create menu items for a mock hotel from the front end and from the back end. We were able to practice Python and Django concepts, the main one being Django's architectural design pattern of Model, View, and Template.
+
+###### Hotel Menu Django Project
+![django project](screenshots/pic1.png)
 
 #### GUI and Tkinter Project Drill
 The graphical user interface and tkinter three-part drill involved creating a GUI that allowed users to select a source directory and a destination directory to transfer .txt files, record the file names that were moved and their corresponding modified time-stamps into a database, and print out those text files and their modified time-stamps to the console.
+
+###### GUI and Tkinter Project
+![GUI Tkinter Project](screenshots/pic2.png)
 
 #### Database and Sqlite3 Project Drill
 The database drill involved writing a script that creates a database and adds new data into that database.
