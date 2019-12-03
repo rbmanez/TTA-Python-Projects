@@ -1,11 +1,18 @@
-#Purpose:   - Create GUI with tkinter
-#           - Use askdirectory() from tkinter's filedialog module
-#           - Create a function linked to browse button widgets so if button
-#           is clicked, it will take user’s selected file path retained by
-#           askdirectory() method and print it within GUI’s text widget
-#Version:   - Python 3.7
-
-
+#Drill:
+#   - you will need to write a script that creates a GUI with a button widget
+#   and a text widget. Your script will also include a function that when it
+#   is called will invoke a dialog modal which will allow users with the
+#   ability to select a folder directory from their system. Finally, your
+#   script will show the user’s selected directory path into the text field
+# 
+#Requirements:
+#   - Your script will need to use Python 3 and the Tkinter module.
+#   - Your script will need to use the askdirectory() method from the Tkinter
+#   module.
+#   - Your script will need to have a function linked to the button widget
+#   so that once the button has been clicked will take the user’s selected
+#   file path retained by the askdirectory() method and print it within your
+#   GUI’s text widget.
 
 from tkinter import *
 from tkinter import filedialog
@@ -45,8 +52,6 @@ class ParentWindow(Frame):
         elif btn_id == 2:
             self.txt2.delete(0, END)
             self.txt2.insert(0, self.folder_selected)
-
-
 
 if __name__=="__main__":
     root = Tk()

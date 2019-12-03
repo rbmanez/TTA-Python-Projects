@@ -1,10 +1,11 @@
-#Purpose:   - Create GUI with tkinter
-#Version:   - Python 3.7
-
-
+# Drill:
+#   - you will need to write a script that creates a GUI
+# Requirements:
+#   - Your script will need to use Python 3 and the Tkinter module.
+#   - Your script will need to re-create an exact copy of a GUI from the
+#   supplied image.
 
 from tkinter import *
-
 class ParentWindow(Frame):
     def __init__(self, master):
         Frame.__init__(self)
@@ -29,8 +30,6 @@ class ParentWindow(Frame):
         self.txt1.grid(column=1, row=0, padx=(25, 0), pady=(40, 0), sticky=N)
         self.txt2 = Entry(self.master, width=60)
         self.txt2.grid(column=1, row=1, padx=(25, 0), pady=(10, 0), sticky=N)
-
-
 
 if __name__=="__main__":
     root = Tk()
