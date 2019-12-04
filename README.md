@@ -6,7 +6,7 @@
 - [OS Module Project](#os-module-project)
 
 ## Royal Hotels Menu
-This Python project involved using the Django framework to create a mock hotel that involved implementing the ability to create menu items from the front end and from the back end.
+This Python project involved using the Django framework to implement the ability to create menu items from the front end and from the back end for our mock hotel.
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/techproject_django)
 
