@@ -1,7 +1,7 @@
 # TTA Python Projects
 
 ## Royal Hotels Menu
-This is a Python and Django project for a mock hotel that involved implementing the ability to create menu items from the front end and from the back end and implementing Django's architectural design pattern of Model, View, and Template.
+This is a Python and Django project for a mock hotel that involved implementing the ability to create menu items from the front end and from the back end and incorporating Django's architectural design pattern of Model, View, and Template.
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/techproject_django)
 
