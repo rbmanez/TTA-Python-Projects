@@ -1,8 +1,7 @@
 # TTA Python Projects
-Practice projects from The Tech Academy's Python course.
 
 ## Hotel Menu Project (Django)
-The Hotel Menu Project was a Django project for a mock hotel that involved developing the ability create menu items from the front end and from the back end. We were able to practice Python and Django concepts, primarily Django's architectural design pattern of Model, View, and Template.
+The Hotel Menu Project was a Django project for a mock hotel that involved developing the ability create menu items from the front end and from the back end in order to practice Python and Django concepts, primarily Django's architectural design pattern of Model, View, and Template.
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/techproject_django)
 
@@ -18,7 +17,7 @@ The graphical user interface and tkinter three-part drill involved creating a GU
 ![GUI Tkinter Project](screenshots/pic2.png)
 
 ## Database and Sqlite3 Project Drill
-The database drill involved writing a script that creates a database and adds new data into that database.
+The database drill involved writing a script that creates a database and adds new data into that database using Python and sqlite3.
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/drillPyDbSqlite3)
 
