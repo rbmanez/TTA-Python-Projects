@@ -1,7 +1,7 @@
 # TTA Python Projects
 
 ## Hotel Menu Project (Django)
-The Hotel Menu Project was a Django project for a mock hotel that involved developing the ability to create menu items from the front end and from the back end, implementing Django's architectural design pattern of Model, View, and Template.
+The Hotel Menu Project was a Django project for a mock hotel that involved developing the ability to create menu items from the front end and from the back end and implementing Django's architectural design pattern of Model, View, and Template.
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/techproject_django)
 
