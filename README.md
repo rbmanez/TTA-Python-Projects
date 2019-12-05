@@ -1,7 +1,7 @@
 # TTA Python Projects
 ## Table of Contents
 - [Royal Hotels Menu](#royal-hotels-menu)
-- [GUI and Tkinter Project](#gui-and-tkinter-project)
+- [File Transfer GUI](#file-transfer-gui)
 - [Database and Sqlite3 Project](#database-and-sqlite3-project)
 - [OS Module Project](#os-module-project)
 
@@ -13,12 +13,12 @@ This Python project involved using the Django framework to implement the ability
 ##### Royal Hotels Menu
 ![django project](screenshots/pic1.png)
 
-## GUI and Tkinter Project
+## File Transfer GUI
 This Python three-part project involved using Tkinter and the sqlite3 and OS modules to create a graphical user interface that allows a user to select a source directory and a destination directory to transfer .txt files, record the file names that were moved and their corresponding modified time-stamps into a database, and print out those text files and their modified time-stamps to the console.
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/drillPyTkinter)
 
-##### GUI and Tkinter Project
+##### File Transfer GUI
 ![GUI Tkinter Project](screenshots/pic2.png)
 
 ## Database and Sqlite3 Project
