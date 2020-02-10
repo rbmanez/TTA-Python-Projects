@@ -6,7 +6,7 @@
 - [OS Module Project](#os-module-project)
 
 ## Royal Hotels Menu
-Implemented the ability to create menu items from the front end and from the back end for our mock hotel. (HTML, CSS, Python/Django)
+Implemented the ability to create menu items from the front end and from the back end for our mock hotel. (HTML, CSS, Python/Django, SQLite3)
 
 [Click here to see the code.](https://github.com/rbmanez/TTA-Python-Projects/tree/master/techproject_django)
 
